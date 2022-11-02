@@ -17,7 +17,7 @@ Create your UIKits web project at [ZEGOCLOUD CONSOLE](http://console.zegocloud.c
 ![config](docs/config.png)
 
 # One-click deployment
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZEGOCLOUD%2Fnextjs-zegocloud-uikits&env=NEXT_PUBLIC_APPID,NEXT_PUBLIC_SERVER_SECRET,NEXT_PUBLIC_CONFIG&envDescription=The%203%20parameters%20correspond%20to%20the%20parameters%20obtained%20from%20the%20console&envLink=https%3A%2F%2Fgithub.com%2FZEGOCLOUD%2Fnextjs-zegocloud-uikits%23readme&project-name=nextjs-zegocloud-uikits&repository-name=nextjs-zegocloud-uikits&demo-title=nextjs-zegocloud-uikits&demo-description=nextjs-zegocloud-uikits)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZEGOCLOUD%2Fnextjs-zegocloud-uikits&env=NEXT_PUBLIC_APPID,NEXT_PUBLIC_SERVER_SECRET,NEXT_PUBLIC_CONFIG&envDescription=The%203%20parameters%20correspond%20to%20the%20parameters%20obtained%20from%20the%20console&envLink=https%3A%2F%2Fgithub.com%2FZEGOCLOUD%2Fnextjs-zegocloud-uikits%23readme&project-name=nextjs-zegocloud-uikits&demo-title=nextjs-zegocloud-uikits&demo-description=nextjs-zegocloud-uikits)
 
 Fill in the corresponding parameters obtained in the previous step
 ![config](docs/vercelEnv.png)
