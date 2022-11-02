@@ -10,7 +10,13 @@ export default function Home() {
     if (root) {
       const userID = randomID(5);
       const appID = config.appID;
-      let UIKitsConfig = JSON.parse(config.UIKitsConfig) || {};
+      let UIKitsConfig =
+        JSON.parse(
+          config.UIKitsConfig.replaceAll("\n", "")
+            .replaceAll("\t", "")
+            .replaceAll(/(\w+):/gi, '"$1":')
+            .replaceAll(/,\s+\}/gi, "}")
+        ) || {};
       const roomID = getUrlParams().get("roomID") || randomID(5);
       let role = getUrlParams().get("role") || "Host";
       let sharedLinks = [];
