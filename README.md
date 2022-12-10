@@ -24,7 +24,7 @@ Create your UIKits web project at [ZEGOCLOUD CONSOLE](http://console.zegocloud.c
 
 ### step 2
 
-Choose your preferred code warehouse (recommended to use github), and create a project
+Choose your preferred code repositorywarehous (recommended to use GitHub), and create a project
 
 ![config](docs/create_Repo.png)
 ![config](docs/create_project.png)
